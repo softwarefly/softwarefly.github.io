@@ -1,2 +1,1 @@
-# softwarefly.github.io
-softwarefly's blog
+# softwarefly's blog
