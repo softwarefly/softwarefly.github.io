@@ -46,6 +46,10 @@ keywords: vim, markdown, toc
 
 除非是在配置里关闭了保存时自动更新，并且维持插入 Table of Contents 前后的 `<!-- vim-markdown-toc -->`，此时可使用 `:UpdateToc` 命令手动更新。
 
+### 删除 Table of Contents
+
+`:RemoveToc` 命令可以帮你删除本插件生成的 Table of Contents。
+
 ## 安装方法
 
 推荐使用 [Vundle](http://github.com/VundleVim/Vundle.Vim) 来管理你的 Vim 插件，这样你就可以简单三步完成安装：
@@ -126,11 +130,11 @@ keywords: vim, markdown, toc
 
 ![](https://github.com/mzlogin/vim-markdown-toc/raw/master/screenshots/english.gif)
 
-[使用本插件生成 TOC 的中文文档在线示例](http://mazhuang.org/wiki/chinese-copywriting-guidelines/)
+[使用本插件生成 TOC 的中文文档在线示例](https://mazhuang.org/wiki/chinese-copywriting-guidelines/)
 
 ![](https://github.com/mzlogin/vim-markdown-toc/raw/master/screenshots/chinese.gif)
 
 ## 参考链接
 
-* [GFM 与 Redcarpet 的不同点](http://mazhuang.org/2015/12/05/diff-between-gfm-and-redcarpet/)
+* [GFM 与 Redcarpet 的不同点](https://mazhuang.org/2015/12/05/diff-between-gfm-and-redcarpet/)
 * [ajorgensen/vim-markdown-toc](https://github.com/ajorgensen/vim-markdown-toc)
