@@ -81,7 +81,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: softwarefly/softwarefly.github.io
 
 # ---------------- #
 #      Comments    #
@@ -91,15 +91,17 @@ comments_provider: gitalk
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
-disqus:
-    username: 
+#disqus:
+#    username: 
+
 # https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: softwarefly
-    repo: blog-comments
-    oauth:
-        client_id: 98e5eb81d1e8db610889
-        client_secret: 2c5d5f1a767abb81764d6b296f789c9e15c4e7cd
+#gitment:
+#    owner: softwarefly
+#    repo: blog-comments
+#    oauth:
+#        client_id: 98e5eb81d1e8db610889
+#        client_secret: 2c5d5f1a767abb81764d6b296f789c9e15c4e7cd
+
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: softwarefly
