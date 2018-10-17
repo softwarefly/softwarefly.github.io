@@ -92,15 +92,15 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 #disqus:
-#    username: 
+    username: 
 
 # https://imsun.net/posts/gitment-introduction/
-#gitment:
-#    owner: softwarefly
-#    repo: blog-comments
-#    oauth:
-#        client_id: 98e5eb81d1e8db610889
-#        client_secret: 2c5d5f1a767abb81764d6b296f789c9e15c4e7cd
+gitment:
+    owner: softwarefly
+    repo: blog-comments
+    oauth:
+        client_id: 98e5eb81d1e8db610889
+        client_secret: 2c5d5f1a767abb81764d6b296f789c9e15c4e7cd
 
 # https://github.com/gitalk/gitalk#install
 gitalk:
