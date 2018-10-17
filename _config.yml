@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 # baseurl:
-url: http://www.softwarefly.net
+url: https://softwarefly.github.io
 date_format: "ordinal"
 title: SoftwareFly
 subtitle: "打码改变人生"
