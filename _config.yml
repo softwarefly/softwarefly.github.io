@@ -1,8 +1,8 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-# baseurl:
-url: https://softwarefly.github.io
+baseurl:
+url: https://softwarefly.net
 date_format: "ordinal"
 title: SoftwareFly
 subtitle: "打码改变人生"
@@ -91,9 +91,8 @@ comments_provider: gitalk
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
-#disqus:
+disqus:
     username: 
-
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: softwarefly
@@ -101,7 +100,6 @@ gitment:
     oauth:
         client_id: 98e5eb81d1e8db610889
         client_secret: 2c5d5f1a767abb81764d6b296f789c9e15c4e7cd
-
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: softwarefly
