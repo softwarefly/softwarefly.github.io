@@ -18,7 +18,7 @@ keywords: 算法，Fibonacci
 
 设 Fibonacci 数列的第 x 项值为 fibo(x)。
 Example (1): $h_\theta(x) = \Large\frac{1}{1 + \mathcal{e}^{(-\theta^\top x)}}$ ; example (2): $a^2 + b^2 = c^2$ ; example (3): $\sum_{i=1}^m y^{(i)}$
-$f'({x_{0}})=\underset{\Delta x\to 0}{\mathop{\lim }}\,\frac{f({x_{0}}+\Delta x)-f({x_{0}})}{\Delta x}$
+$f'({{x}_{0}})=\underset{\Delta x\to 0}{\mathop{\lim }}\,\frac{f({x_{0}}+\Delta x)-f({x_{0}})}{\Delta x}$
 1. 当 n=1 时，f(n)=1=fibo(2)
 2. 当 n=2 时，f(n)=2=fibo(3)
 3. 当 n>2 时，分析可知，在跳上第 n 级台阶前一步，必然是在第 (n-1) 或 (n-2) 级台阶，故有 f(n) = f(n-1) + f(n-2); 依此类推……
