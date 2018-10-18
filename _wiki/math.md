@@ -13,7 +13,6 @@ keywords: 机器学习, 数学基础
 {:toc}
 -----
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 ### 高等数学
 
