@@ -170,7 +170,7 @@ $y=ax+b$称为$y=f(x)$的斜渐近线。</p>
 <p>$dS=\sqrt{1+y{'^{2}}}dx$</p>
 <p><strong>16.曲率</strong></p>
 <p>曲线$y=f(x)$在点$(x,y)$处的曲率$k=\frac{\left| y'' \right|}{(1+y{'^{2}})^{\tfrac{3}{2}}}$。
-对于参数方程$\left\{ \begin{align}  & x=\varphi (t) \\  & y=\psi (t) \\ \end{align} \right.,$$k=\frac{\left| \varphi '(t)\psi ''(t)-\varphi ''(t)\psi '(t) \right|}{[\varphi {'^{2}}(t)+\psi {'^{2}}(t)]^{\tfrac{3}{2}}}$。</p>
+对于参数方程$\left\{\begin{matrix} x=\varphi (t) \\ y=\psi (t) \end{matrix}\right.$，$k=\frac{\left| \varphi '(t)\psi ''(t)-\varphi ''(t)\psi '(t) \right|}{[\varphi {'^{2}}(t)+\psi {'^{2}}(t)]^{\tfrac{3}{2}}}$。</p>
 <p><strong>17.曲率半径</strong></p>
 <p>曲线在点$M$处的曲率$k(k\ne 0)$与曲线在点$M$处的曲率半径$\rho $有如下关系：$\rho =\frac{1}{k}$。</p>
 
