@@ -29,18 +29,18 @@ keywords: 机器学习, 数学基础
 <p><strong>Th2:</strong> 若函数在点$x_0$处可导，则$y=f(x)$在点$x_0$处连续，反之则不成立。即函数连续不一定可导。</p>
 <p><strong>Th3:</strong> ${f}'({x_{0}})$存在$\Leftrightarrow {f'_{-}}({x_{0}})={f'_{+}}({x_{0}})$</p>
 <p><strong>4.平面曲线的切线和法线</strong></p>
-<p>切线方程 : $y-{y_{0}}=f'({x_{0}})(x-{x_{0}})$
-法线方程：$y-{y_{0}}=-\frac{1}{f'({x_{0}})}(x-{x_{0}}),f'({x_{0}})\ne 0$</p>
+<p>切线方程 : $y-{y_{0}}=f'({x_{0}})(x-{x_{0}})$</p>
+<p>法线方程：$y-{y_{0}}=-\frac{1}{f'({x_{0}})}(x-{x_{0}}),f'({x_{0}})\ne 0$</p>
 <p><strong>5.四则运算法则</strong>
-设函数$u=u(x)，v=v(x)$]在点$x$可导则
-(1) $(u\pm v{)}'={u}'\pm {v}'$       $d(u\pm v)=du\pm dv$
-(2) $(uv{)}'=u{v}'+v{u}'$        $d(uv)=udv+vdu$
-(3) $(\frac{u}{v}{)}'=\frac{v{u}'-u{v}'}{v^{2}}(v\ne 0)$       $d(\frac{u}{v})=\frac{vdu-udv}{v^{2}}​$</p>
+<p>设函数$u=u(x)，v=v(x)$]在点$x$可导则</p>
+<p>(1) $(u\pm v{)}'={u}'\pm {v}'$       $d(u\pm v)=du\pm dv$</p>
+<p>(2) $(uv{)}'=u{v}'+v{u}'$        $d(uv)=udv+vdu$</p>
+<p>(3) $(\frac{u}{v}{)}'=\frac{v{u}'-u{v}'}{v^{2}}(v\ne 0)$       $d(\frac{u}{v})=\frac{vdu-udv}{v^{2}}​$</p>
 <p><strong>6.基本导数与微分表</strong>
-(1) $y=c$（常数）       ${y}'=0$          $dy=0$
-(2) $y={x^{\alpha }}$($\alpha $为实数)    ${y}'=\alpha {x^{\alpha -1}}$      $dy=\alpha {x^{\alpha -1}}dx$
-(3) $y={a^{x}}$      ${y}'={a^{x}}\ln a$         $dy={a^{x}}\ln adx$
-  特例:   $({e^{x}}{)}'={e^{x}}$             $d({e^{x}})={e^{x}}dx$</p>
+<p>(1) $y=c$（常数）       ${y}'=0$          $dy=0$</p>
+<p>(2) $y={x^{\alpha }}$($\alpha $为实数)    ${y}'=\alpha {x^{\alpha -1}}$      $dy=\alpha {x^{\alpha -1}}dx$</p>
+<p>(3) $y={a^{x}}$      ${y}'={a^{x}}\ln a$         $dy={a^{x}}\ln adx$</p>
+<p>  特例:   $({e^{x}}{)}'={e^{x}}$             $d({e^{x}})={e^{x}}dx$</p>
 <p>(4) ${y}'=\frac{1}{x\ln a}$           </p>
 <p>$dy=\frac{1}{x\ln a}dx$
   特例:$y=\ln x$                      $(\ln x{)}'=\frac{1}{x}$       $d(\ln x)=\frac{1}{x}dx$</p>
@@ -49,35 +49,35 @@ keywords: 机器学习, 数学基础
 <p>(6) $y=\cos x$      </p>
 <p>${y}'=-\sin x$       $d(\cos x)=-\sin xdx$</p>
 <p>(7) $y=\tan x$  </p>
-<p>${y}'=\frac{1}{\cos ^{2}x}={\sec ^{2}}x$  $d(\tan x)={\sec ^{2}}xdx$
-(8) $y=\cot x$ ${y}'=-\frac{1}{\sin ^{2}x}=-{\csc ^{2}}x$  $d(\cot x)=-{\csc ^{2}}xdx$
-(9) $y=\sec x$ ${y}'=\sec x\tan x$     </p>
+<p>${y}'=\frac{1}{\cos ^{2}x}={\sec ^{2}}x$  $d(\tan x)={\sec ^{2}}xdx$</p>
+<p>(8) $y=\cot x$ ${y}'=-\frac{1}{\sin ^{2}x}=-{\csc ^{2}}x$  $d(\cot x)=-{\csc ^{2}}xdx$</p>
+<p>(9) $y=\sec x$ ${y}'=\sec x\tan x$     </p>
 <p> $d(\sec x)=\sec x\tan xdx$
-(10) $y=\csc x$ ${y}'=-\csc x\cot x$    </p>
-<p>$d(\csc x)=-\csc x\cot xdx$
-(11) $y=\arcsin x$  </p>
+<p>(10) $y=\csc x$ ${y}'=-\csc x\cot x$    </p>
+<p>$d(\csc x)=-\csc x\cot xdx$</p>
+<p>(11) $y=\arcsin x$  </p>
 <p>${y}'=\frac{1}{\sqrt{1-{x^{2}}}}$   </p>
-<p>$d(\arcsin x)=\frac{1}{\sqrt{1-{x^{2}}}}dx$
-(12) $y=\arccos x$ </p>
+<p>$d(\arcsin x)=\frac{1}{\sqrt{1-{x^{2}}}}dx$</p>
+<p>(12) $y=\arccos x$ </p>
 <p>${y}'=-\frac{1}{\sqrt{1-{x^{2}}}}$     $d(\arccos x)=-\frac{1}{\sqrt{1-{x^{2}}}}dx$</p>
 <p>(13) $y=\arctan x$ </p>
 <p>${y}'=\frac{1}{1+{x^{2}}}$     $d(\arctan x)=\frac{1}{1+{x^{2}}}dx$</p>
 <p>(14) $y=\operatorname{arc}\cot x$      </p>
 <p>${y}'=-\frac{1}{1+{x^{2}}}$   </p>
-<p>$d(\operatorname{arc}\cot x)=-\frac{1}{1+{x^{2}}}dx$
-(15) $y=shx$    </p>
+<p>$d(\operatorname{arc}\cot x)=-\frac{1}{1+{x^{2}}}dx$</p>
+<p>(15) $y=shx$    </p>
 <p>${y}'=chx$       $d(shx)=chxdx$</p>
 <p>(16) $y=chx$    </p>
 <p>${y}'=shx$       $d(chx)=shxdx$</p>
 <p><strong>7.复合函数，反函数，隐函数以及参数方程所确定的函数的微分法</strong></p>
-<p>(1) 反函数的运算法则: 设$y=f(x)$在点$x$的某邻域内单调连续，在点$x$处可导且${f}'(x)\ne 0$，则其反函数在点$x$所对应的$y$处可导，并且有$\frac{dy}{dx}=\frac{1}{\frac{dx}{dy}}$
-(2) 复合函数的运算法则:若$\mu =\varphi (x)$在点$x$可导,而$y=f(\mu )$在对应点$\mu $($\mu =\varphi (x)$)可导,则复合函数$y=f(\varphi (x))$在点$x$可导,且${y}'={f}'(\mu )\cdot {\varphi }'(x)$
-(3) 隐函数导数$\frac{dy}{dx}$的求法一般有三种方法：
-1)方程两边对$x$求导，要记住$y$是$x$的函数，则$y$的函数是$x$的复合函数.例如$\frac{1}{y}$，${y^{2}}$，$ln y$，${e^{y}}$等均是$x$的复合函数.
-对$x$求导应按复合函数连锁法则做.
-2)公式法.由$F(x,y)=0$知 $\frac{dy}{dx}=-\frac{f'_{x}(x,y)}{f'_{y}(x,y)}$,其中，${f'_{x}}(x,y)$，
-${f'_{y}}(x,y)$分别表示$F(x,y)$对$x$和$y$的偏导数
-3)利用微分形式不变性</p>
+<p>(1) 反函数的运算法则: 设$y=f(x)$在点$x$的某邻域内单调连续，在点$x$处可导且${f}'(x)\ne 0$，则其反函数在点$x$所对应的$y$处可导，并且有$\frac{dy}{dx}=\frac{1}{\frac{dx}{dy}}$</p>
+<p>(2) 复合函数的运算法则:若$\mu =\varphi (x)$在点$x$可导,而$y=f(\mu )$在对应点$\mu $($\mu =\varphi (x)$)可导,则复合函数$y=f(\varphi (x))$在点$x$可导,且${y}'={f}'(\mu )\cdot {\varphi }'(x)$</p>
+<p>(3) 隐函数导数$\frac{dy}{dx}$的求法一般有三种方法：</p>
+<p>1)方程两边对$x$求导，要记住$y$是$x$的函数，则$y$的函数是$x$的复合函数.例如$\frac{1}{y}$，${y^{2}}$，$ln y$，${e^{y}}$等均是$x$的复合函数.
+对$x$求导应按复合函数连锁法则做.</p>
+<p>2)公式法.由$F(x,y)=0$知 $\frac{dy}{dx}=-\frac{f'_{x}(x,y)}{f'_{y}(x,y)}$,其中，${f'_{x}}(x,y)$，
+${f'_{y}}(x,y)$分别表示$F(x,y)$对$x$和$y$的偏导数</p>
+<p>3)利用微分形式不变性</p>
 <p><strong>8.常用高阶导数公式</strong></p>
 <p>（1）$({a^{x}}){\,^{(n)}}={a^{x}}{\ln ^{n}}a\quad (a>{0})\quad \quad ({e^{x}}){\,^{(n)}}={e}{\,^{x}}$
 （2）$(\sin kx{)}{\,^{(n)}}={k^{n}}\sin (kx+n\cdot \frac{\pi }{2})$
@@ -371,7 +371,7 @@ $A\bigcap B=\varnothing ,A\bigcup B=\Omega ,A=\bar{B},B=\bar{A}$
 <strong>3.德$\centerdot $摩根律</strong></p>
 <p>$\overline{A\bigcup B}=\bar{A}\bigcap \bar{B}$                 $\overline{A\bigcap B}=\bar{A}\bigcup \bar{B}$
 <strong>4.完全事件组</strong> </p>
-<p>${a_{1}}{a_{2}}\cdots {a_{n}}$两两互斥，且和事件为必然事件，即${A_{i}}\bigcap A_{j}=\varnothing$, $i\ne j$, $\mathop \bigcup_{i=1}^n =\Omega$</p>
+<p>${a_{1}}{a_{2}}\cdots {a_{n}}$两两互斥，且和事件为必然事件，即${A_{i}}\bigcap A_{j}=\varnothing$, $i\ne j$, $\bigcup_{i=1}^n =\Omega$</p>
 <p><strong>5.概率的基本公式</strong>
 (1)条件概率:
  $P(B|A)=\frac{P(AB)}{P(A)}$,表示$A$发生的条件下，$B$发生的概率。
@@ -407,7 +407,7 @@ $P({a_{1}}{a_{2}}|B)=P({a_{1}}|B)P({a_{2}}|{a_{1}}B)$
 (6)若${a_{1}},{a_{2}},\cdots ,{a_{n}}$相互独立，则$P(\bigcap\limits_{i=1}^{n}{a_{i}})=\prod\limits_{i=1}^{n}{P({a_{i}})},$
  $P(\bigcup\limits_{i=1}^{n}{a_{i}})=\prod\limits_{i=1}^{n}{(1-P({a_{i}}))}$
 (7)互斥、互逆与独立性之间的关系：
-$A$与$B$互逆$\Rightarrow$ $A$与$B$互斥，但反之不成立，$A$与$B$互斥（或互逆）且均非零概率事件$\Rightarrow $$A$与$B$不独立.
+$A$与$B$互逆$\Rightarrow$ $A$与$B$互斥，但反之不成立，$A$与$B$互斥（或互逆）且均非零概率事件$\Rightarrow$ $A$与$B$不独立.
 (8)若${A_{1}},{A_{2}},\cdots ,{A_{m}},{B_{1}},{B_{2}},\cdots ,{B_{n}}$相互独立，则$f({A_{1}},{A_{2}},\cdots ,{A_{m}})$与$g({B_{1}},{B_{2}},\cdots ,{B_{n}})$也相互独立，其中$f(\centerdot)$, $g(\centerdot)$分别表示对相应事件做任意事件运算后所得的事件，另外，概率为1（或0）的事件与任何事件相互独立.</p>
 <p>&nbsp;</p>
 
