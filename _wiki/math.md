@@ -371,7 +371,7 @@ $A\bigcap B=\varnothing ,A\bigcup B=\Omega ,A=\bar{B},B=\bar{A}$
 <strong>3.德$\centerdot $摩根律</strong></p>
 <p>$\overline{A\bigcup B}=\bar{A}\bigcap \bar{B}$                 $\overline{A\bigcap B}=\bar{A}\bigcup \bar{B}$
 <strong>4.完全事件组</strong> </p>
-<p>${a_{1}}{a_{2}}\cdots {a_{n}}$两两互斥，且和事件为必然事件，即${a_{i}}\bigcap {a_{j}}=\varnothing, i\ne j ,\underset{i=1}{\overset{n}{\mathop \bigcup }}\,=\Omega $</p>
+<p>${a_{1}}{a_{2}}\cdots {a_{n}}$两两互斥，且和事件为必然事件，即${A_{i}}\bigcap A_{j}=\varnothing$, $i\ne j$, $\mathop \bigcup_{i=1}^n =\Omega$</p>
 <p><strong>5.概率的基本公式</strong>
 (1)条件概率:
  $P(B|A)=\frac{P(AB)}{P(A)}$,表示$A$发生的条件下，$B$发生的概率。
@@ -408,7 +408,7 @@ $P({a_{1}}{a_{2}}|B)=P({a_{1}}|B)P({a_{2}}|{a_{1}}B)$
  $P(\bigcup\limits_{i=1}^{n}{a_{i}})=\prod\limits_{i=1}^{n}{(1-P({a_{i}}))}$
 (7)互斥、互逆与独立性之间的关系：
 $A$与$B$互逆$\Rightarrow$ $A$与$B$互斥，但反之不成立，$A$与$B$互斥（或互逆）且均非零概率事件$\Rightarrow $$A$与$B$不独立.
-(8)若${a_{1}},{a_{2}},\cdots ,{a_{m}},{B_{1}},{B_{2}},\cdots ,{B_{n}}$相互独立，则$f({a_{1}},{a_{2}},\cdots ,{a_{m}})$与$g({B_{1}},{B_{2}},\cdots ,{B_{n}})$也相互独立，其中$f(\centerdot ),g(\centerdot )$分别表示对相应事件做任意事件运算后所得的事件，另外，概率为1（或0）的事件与任何事件相互独立.</p>
+(8)若${A_{1}},{A_{2}},\cdots ,{A_{m}},{B_{1}},{B_{2}},\cdots ,{B_{n}}$相互独立，则$f({A_{1}},{A_{2}},\cdots ,{A_{m}})$与$g({B_{1}},{B_{2}},\cdots ,{B_{n}})$也相互独立，其中$f(\centerdot)$, $g(\centerdot)$分别表示对相应事件做任意事件运算后所得的事件，另外，概率为1（或0）的事件与任何事件相互独立.</p>
 <p>&nbsp;</p>
 
 #### 随机变量及其概率分布
