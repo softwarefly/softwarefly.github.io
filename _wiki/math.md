@@ -11,6 +11,7 @@ keywords: 机器学习, 数学基础
 
 * TOC
 {:toc}
+
 -----
 
 ### 高等数学
@@ -31,12 +32,12 @@ keywords: 机器学习, 数学基础
 <p><strong>4.平面曲线的切线和法线</strong></p>
 <p>切线方程 : $y-{y_{0}}=f'({x_{0}})(x-{x_{0}})$</p>
 <p>法线方程：$y-{y_{0}}=-\frac{1}{f'({x_{0}})}(x-{x_{0}}),f'({x_{0}})\ne 0$</p>
-<p><strong>5.四则运算法则</strong>
+<p><strong>5.四则运算法则</strong></p>
 <p>设函数$u=u(x)，v=v(x)$]在点$x$可导则</p>
 <p>(1) $(u\pm v{)}'={u}'\pm {v}'$       $d(u\pm v)=du\pm dv$</p>
 <p>(2) $(uv{)}'=u{v}'+v{u}'$        $d(uv)=udv+vdu$</p>
 <p>(3) $(\frac{u}{v}{)}'=\frac{v{u}'-u{v}'}{v^{2}}(v\ne 0)$       $d(\frac{u}{v})=\frac{vdu-udv}{v^{2}}​$</p>
-<p><strong>6.基本导数与微分表</strong>
+<p><strong>6.基本导数与微分表</strong></p>
 <p>(1) $y=c$（常数）       ${y}'=0$          $dy=0$</p>
 <p>(2) $y={x^{\alpha }}$($\alpha $为实数)    ${y}'=\alpha {x^{\alpha -1}}$      $dy=\alpha {x^{\alpha -1}}dx$</p>
 <p>(3) $y={a^{x}}$      ${y}'={a^{x}}\ln a$         $dy={a^{x}}\ln adx$</p>
@@ -52,7 +53,7 @@ keywords: 机器学习, 数学基础
 <p>${y}'=\frac{1}{\cos ^{2}x}={\sec ^{2}}x$  $d(\tan x)={\sec ^{2}}xdx$</p>
 <p>(8) $y=\cot x$ ${y}'=-\frac{1}{\sin ^{2}x}=-{\csc ^{2}}x$  $d(\cot x)=-{\csc ^{2}}xdx$</p>
 <p>(9) $y=\sec x$ ${y}'=\sec x\tan x$     </p>
-<p> $d(\sec x)=\sec x\tan xdx$
+<p> $d(\sec x)=\sec x\tan xdx$	</p>
 <p>(10) $y=\csc x$ ${y}'=-\csc x\cot x$    </p>
 <p>$d(\csc x)=-\csc x\cot xdx$</p>
 <p>(11) $y=\arcsin x$  </p>
