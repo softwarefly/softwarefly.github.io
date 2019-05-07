@@ -20,7 +20,7 @@ mysql> FLUSH PRIVILEGES;
 root@28ddb46a15b8:/# mysql -uroot -p < employees.sql
 ```
 
-<div align=left>
+<div align="left">
 <img src = "/images/posts/deployment/mysql-import.jpg" width = "600"/>
 </div>
 
