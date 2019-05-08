@@ -305,6 +305,7 @@ Import terminated successfully without warnings.
 * [Docker 拉取 oracle 11g镜像配置][5]
 * [Docker中的Oracle数据库][6]
 * [Oracle 12c pdb的数据泵导入导出][7]
+* [docker下安装 Oracle11gR2][8]
 
 [1]: https://www.cnblogs.com/linjiqin/p/8604756.html
 [2]: http://www.dboracle.com/archivers/oracle-12c-on-docker.html
@@ -313,3 +314,4 @@ Import terminated successfully without warnings.
 [5]: https://blog.csdn.net/qq_38380025/article/details/80647620
 [6]: https://blog.csdn.net/yidu_fanchen/article/details/75568748
 [7]: https://www.cnblogs.com/xqzt/p/5034261.html
+[8]: https://www.cnblogs.com/wq3435/p/6523840.html
