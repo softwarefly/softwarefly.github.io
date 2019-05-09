@@ -92,7 +92,7 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: 
+    username: softwarefly
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: softwarefly
@@ -103,7 +103,7 @@ gitment:
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: softwarefly
-    repo: blog-comments
+    repo: softwarefly.github.io
     clientID: 98e5eb81d1e8db610889
     clientSecret: 574008fc9d778c685b6492389f5f9cd4447b6ad2
 # 在使用其它评论组件时可点击显示 Disqus
