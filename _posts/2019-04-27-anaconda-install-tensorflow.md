@@ -55,6 +55,7 @@ conda install keras
 conda install jupyter
 conda install keras
 conda install matplotlib
+conda install pandas
 conda install scikit-image
 conda install scikit-sklearn
 ```
