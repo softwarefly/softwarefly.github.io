@@ -35,6 +35,14 @@ Install TensorFlow (GPU version) with conda
 ```sh
 conda install tensorflow-gpu (GPU version)
 conda install tensorflow
+
+conda install cudatoolkit=10 cudnn=7.3
+
+pip install tf-nightly-2.0-preview
+pip install tf-nightly-gpu-2.0-preview
+
+pip install tensorflow==2.0.0-alpha0
+pip install tensorflow-gpu==2.0.0-alpha0
 ```
 
 Check TensotFlow installation with
@@ -46,6 +54,7 @@ python
 ```sh
 >>> import tensorflow as tf
 >>> tf.Session(config=tf.ConfigProto(log_device_placement=True))
+>>> print(tf.__version__)
 ```
 
 Install other packages
@@ -53,11 +62,10 @@ Install other packages
 ```sh
 conda install keras
 conda install jupyter
-conda install keras
 conda install matplotlib
 conda install pandas
 conda install scikit-image
-conda install scikit-sklearn
+conda install scikit-learn
 ```
 
 Some basic operation of conda
@@ -72,8 +80,10 @@ conda remove -n XXX --all   //remove virtualenv XXX
 ## Reference
 
 * [Install Conda TensorFlow-gpu and Keras on Ubuntu 18.04][1]
+* [Test Drive TensorFlow 2.0 Alpha][2]
 
 [1]: https://medium.com/@naomi.fridman/install-conda-tensorflow-gpu-and-keras-on-ubuntu-18-04-1b403e740e25
+[2]: https://medium.com/tensorflow/test-drive-tensorflow-2-0-alpha-b6dd1e522b01
 
 
 
