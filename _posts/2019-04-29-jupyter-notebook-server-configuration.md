@@ -21,7 +21,7 @@ conda install jupyter
 Generate the default jupyter_notebook_config.py file
 
 ```sh
-jupyter notebook --generate-confign (--allow-root)
+jupyter notebook --generate-config (--allow-root)
 ```
 
 This will put the file in the following directory:
