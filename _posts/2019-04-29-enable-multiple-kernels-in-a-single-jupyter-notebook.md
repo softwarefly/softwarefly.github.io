@@ -37,6 +37,13 @@ Just to clarify `tf2` there is a Python virtual environment with  `tensorflow-gp
 <figcaption  class="imageCaption">Multiple Kernel</figcaption>
 </div>
 
+If you want to check and remove a specific environment kernel from jupyter notebook
+
+```
+(some-env)$ jupyter kernelspec list
+(some-env)$ jupyter kernelspec remove <some-env>
+```
+
 ## Second method
 
 ```sh
