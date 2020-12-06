@@ -33,7 +33,7 @@ That’s it. And now you can run jupyter notebooks from anywhere and you get the
 Just to clarify `tf2` there is a Python virtual environment with  `tensorflow-gpu==2.0.0-alpha0` SDK for python is installed, hence the name.
 
 <div align="center">
-<img src = "/images/posts/deployment/jupyter-kernel.png" width = "1000"/>
+<img src = "../images/posts/deployment/jupyter-kernel.png" width = "1000"/>
 <figcaption  class="imageCaption">Multiple Kernel</figcaption>
 </div>
 
