@@ -39,9 +39,10 @@ If you want to check and remove a specific environment kernel from jupyter noteb
 (some-env)$ jupyter kernelspec remove <some-env>
 ```
 
-
-<img src = "../images/posts/deployment/jupyter-kernel.png" width = "1000"/>
-
+<div align="center">
+<img src = "/images/posts/deployment/jupyter-kernel.png" width = "1000"/>
+<figcaption  class="imageCaption">Multiple Kernel</figcaption>
+</div>
 
 
 
