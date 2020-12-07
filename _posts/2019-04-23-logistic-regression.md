@@ -70,7 +70,8 @@ $$\begin{array}{l}
 
 **Proof:**
 
-$$J(\theta)=-\frac{1}{m} \sum_{i=1}^{m}\left[y^{(i)} \log \left(h_{\theta}\left(x^{(i)}\right)\right)+\left(1-y^{(i)}\right) \log \left(1-h_{\theta}\left(x^{(i)}\right)\right)\right], \quad h_{\theta}\left(x^{(i)}\right)=\frac{1}{1+e^{-\theta^{T} x^{(i)}}}$$
+$$J(\theta)=-\frac{1}{m} \sum_{i=1}^{m}\left[y^{(i)} \log \left(h_{\theta}\left(x^{(i)}\right)\right)+\left(1-y^{(i)}\right) \log \left(1-h_{\theta}\left(x^{(i)}\right)\right)\right]$$
+$$where, h_{\theta}\left(x^{(i)}\right)=\frac{1}{1+e^{-\theta^{T} x^{(i)}}}$$
 
 $$\begin{align} 
 & y^{(i)} \log \left(h_{\theta}\left(x^{(i)}\right)\right)+\left(1-y^{(i)}\right) \log \left(1-h_{\theta}\left(x^{(i)}\right)\right) \\
