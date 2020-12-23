@@ -33,7 +33,7 @@ For instance, if we want to get a better model instead of the overfitting one. O
 First, we modify the Cost Function $J(\theta)$ by adding regularization. Second, apply gradient descent in order to minimize $J(\theta)$ and get the values of $\theta_3$ and $\theta_4$. After the minimize procedure, the values of $\theta_3$ and $\theta_4$ must be near to zero if $\lambda=1000$.
 
 <div align="center">
-<img src = "/images/posts/ml/regularization-instance1.jpg" width = "600" />
+<img src = "/images/posts/ml/regularization-instance1.jpg" width = "450" />
 </div>
 
 Remember, the value of $J(\theta)$ represents training error and this value must be positive ($\ge 0$). The parameter $\lambda=1000$ has significant effect on $J(\theta)$, therefore, $\theta_3$ and $\theta_4$ must be near to zero (e.g 0.000001) so as to eliminate error value.
